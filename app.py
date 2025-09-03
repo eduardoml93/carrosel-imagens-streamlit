@@ -28,7 +28,7 @@ st.markdown(
 st.image(get_image_url(st.session_state.index), use_container_width=True)
 
 # Dividindo os botões em duas colunas para centralização e controle
-col1, col2 = st.columns([1, 0.15])
+col1, col2 = st.columns([1, 0.19])
 
 with col1:
     st.button("Voltar", on_click=previous_image)
@@ -50,6 +50,7 @@ st.markdown(
     """,
     unsafe_allow_html=True
 )
+
 
 
 
